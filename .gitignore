@@ -3,6 +3,12 @@
 
 # Log file
 *.log
+# Folders
+.metadata
+.project
+.classpath
+.settings
+bim
 
 # BlueJ files
 *.ctxt
