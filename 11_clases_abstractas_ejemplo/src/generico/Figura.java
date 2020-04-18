@@ -4,11 +4,13 @@ public abstract class Figura {
 	
 	// atributo
 	private String color;
-
+	
+	// constructor
 	public Figura(String color) {
 		this.color = color;
 	}
 
+	// getters y setters
 	public String getColor() {
 		return color;
 	}
@@ -18,14 +20,14 @@ public abstract class Figura {
 	}
 
 	/**
-	 * Método abstracto.
+	 * Metodo abstracto.
 	 * Se debe implementar en la clase específica <br>
 	 * Debe calcular el área de la figura
 	 */
 	abstract public double calculaArea();
 	
 	/**
-	 * Método abstracto.
+	 * Metodo abstracto.
 	 * Se debe implementar en la clase específica <br>
 	 * Debe calcular el perímetro de la figura
 	 */
