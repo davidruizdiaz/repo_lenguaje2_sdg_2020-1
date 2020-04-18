@@ -1,6 +1,8 @@
 package generico;
 
 public abstract class Figura {
+	
+	// atributo
 	private String color;
 
 	public Figura(String color) {
