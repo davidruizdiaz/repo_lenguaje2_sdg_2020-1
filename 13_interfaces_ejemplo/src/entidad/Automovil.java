@@ -27,27 +27,32 @@ public class Automovil extends Vehiculo implements ControlVehiculo {
 	// metodos de la interfaz
 	@Override
 	public void arranca() {
-		System.out.println("El automovil arranca");
+		// TODO Auto-generated method stub
+		
 	}
 
 	@Override
 	public void cambiaVelocidad() {
-		System.out.println("El automovil cambia velocidad");
+		// TODO Auto-generated method stub
+		
 	}
 
 	@Override
 	public void acelera() {
-		System.out.println("El automovil aclera");
+		// TODO Auto-generated method stub
+		
 	}
 
 	@Override
 	public void frena() {
-		System.out.println("El automovil frena");
+		// TODO Auto-generated method stub
+		
 	}
 
 	@Override
 	public void estaciona() {
-		System.out.println("El automovil estaciona");
+		// TODO Auto-generated method stub
+		
 	}
 
 	@Override

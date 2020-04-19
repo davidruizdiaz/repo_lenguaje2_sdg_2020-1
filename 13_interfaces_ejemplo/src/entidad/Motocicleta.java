@@ -21,33 +21,34 @@ public class Motocicleta extends Vehiculo implements ControlVehiculo {
 	}
 
 	// metodos de la interfaz
-	public void setTipoCambio(String tipoCambio) {
-		this.tipoCambio = tipoCambio;
-	}
-
 	@Override
 	public void arranca() {
-		System.out.println("La motocicleta arranca");
+		// TODO Auto-generated method stub
+		
 	}
 
 	@Override
 	public void cambiaVelocidad() {
-		System.out.println("La motocicleta cambia");
+		// TODO Auto-generated method stub
+		
 	}
 
 	@Override
 	public void acelera() {
-		System.out.println("La motocicleta acelera");
+		// TODO Auto-generated method stub
+		
 	}
 
 	@Override
 	public void frena() {
-		System.out.println("La motocicleta frena");
+		// TODO Auto-generated method stub
+		
 	}
 
 	@Override
 	public void estaciona() {
-		System.out.println("La motocicleta estaciona");
+		// TODO Auto-generated method stub
+		
 	}
 
 	@Override
