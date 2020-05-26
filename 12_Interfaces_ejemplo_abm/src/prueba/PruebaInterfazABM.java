@@ -11,7 +11,9 @@ public class PruebaInterfazABM {
 	public static void main(String[] args) {
 		
 		// cliente
-		OperacionesABM cli = new Cliente("JosÃ©", "0982555666", 1, "vip");
+		OperacionesABM cli = new Cliente("José", "0982555666", 1, "vip");
+		
+		// controlador
 		ControladorABM controlador = new ControladorABM(cli);
 		controlador.getObjetoABM().insertar();
 		
